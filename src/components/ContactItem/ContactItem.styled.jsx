@@ -1,24 +1,15 @@
 import styled from "styled-components";
 
 export const Item = styled.li`
-    color: #2c3d50;
+    color: #0b2545;
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 20px;
     position: relative;
-    padding-left: 35px;
-
-    &::before{
-        position: absolute;
-        content: "✅";
-        top: 4px;
-        left: 0;
-    }
-    
 `
 export const Name = styled.p`
-    color: #2c3d50;
+    color: #0b2545;
     margin: 0;
     font-weight: 600;
     font-size: 22px;

@@ -1,8 +1,7 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-    width: 450px;
-    margin: 0 auto;
+    width: 650px;
 `
 export const Field = styled.div`
     display: flex;
@@ -12,7 +11,7 @@ export const Field = styled.div`
 `
 export const Input = styled.input`
     border-radius: 35px;
-    border: 1px solid #2c3d50;
+    border: 1px solid #0b2545;
     height: 35px;
     padding-left: 18px;
     outline: transparent;
